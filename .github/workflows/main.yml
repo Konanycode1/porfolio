@@ -23,5 +23,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}   # Nom d'utilisateur FTP
           password: ${{ secrets.FTP_PASSWORD }}   # Mot de passe FTP
           local-dir: ./                           # Dossier source (à ajuster si besoin)
-          server-dir: /abrahamkonany             # Dossier distant (adapter selon l'hébergement)
+          server-dir: /abrahamkonany/           # Dossier distant (adapter selon l'hébergement)
 
